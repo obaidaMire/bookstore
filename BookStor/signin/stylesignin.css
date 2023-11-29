@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+:root{
+    --mainColor: #0d6efd;
+}
+
+.dad{    
+    /*background-image: url("D:/task1/Untitled-1.jpg");*/
+    background-image: linear-gradient(45deg, #0d6efd, transparent);
+    width: 100%;
+    height: 850px;
+    position: relative;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.immg{
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+}
+
+
+.card_Module{
+    width: fit-content;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: #fef7ea;
+    left: 50%;
+    top: 50%;
+     border-radius: 5px;
+     padding: 25px;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+}
+
+.card_body{
+    width: fit-content;
+    padding: 10px;
+    margin: 10px;
+}
+
+.title button{
+    width: 150px;
+    height: 80px;
+    padding: 0px;
+    margin: 20px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+.title h2{
+    text-align: center;
+    width: 400px;
+    padding: 30px 0px;
+}
+
+input{
+    border: 0.5px solid #d8cccc;
+    border-radius: 5px;
+    margin: 10px 0px 20px;
+    padding: 0px 15px;
+    background: #f0e4e46b;
+    width: 375px;
+    height: 45px;
+    text-align: right;
+}
+
+label {
+    display: block;
+    text-align: right;
+    padding-right: 25px;
+}
+
+
+.formm form{
+    padding: 7px;
+    height: 300px;
+}
+
+.login_form button{
+    padding: 15px 50px;
+    font-size: 17px;
+    border-radius: 16px;
+    border: none;
+    background-color: var(--mainColor);
+    color: white;
+    cursor: pointer;
+    display: block;
+    margin: 15px auto;
+}
+.login_form .new_acc{
+    justify-content: space-around;
+}
+footer {
+    position: absolute;
+    bottom: 0px;
+    left: 42%;
+}

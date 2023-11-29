@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+:root{
+    --main-color: #0d6efd;
+}
+body{
+    background-image: linear-gradient(45deg, #0d6efd, transparent);
+    
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav {
+    height: 58px;
+    padding-top: 20px;
+    background: #eee;
+    font-size: 17px;
+}
+.store_name {
+    font-size: 20px;
+    color: red;
+    font-weight: bolder;
+}
+ul.flex.ul {
+    list-style: none;
+}
+ul.flex.ul li {
+    padding-right: 35px;
+}
+ul.flex.ul li a {
+    text-decoration: none;
+}
+/*  -----------------------------  */
+.main_body {
+    position: relative;
+}
+.container {
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.card_Module{
+    width: 400px;
+    height: 570px;
+    background-color: #fef7ea;
+    margin-bottom: 50px;
+    padding: 25px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+.card_Module img {
+    width: 353px;
+    height: 395px;
+}
+.card_Module p {
+    text-align: center;
+    height: 50px;
+    padding: 20px 0px 0px 0px;
+    font-size: 25px;
+}
+.card_Module button{
+    padding: 15px 50px;
+    font-size: 17px;
+    border-radius: 16px;
+    border: none;
+    background-color: var(--main-color);
+    color: white;
+    cursor: pointer;
+    display: block;
+    margin: 15px auto;
+}
+footer {
+    position: relative;
+    width: 200px;
+    bottom: 0%;
+    left: 45%;
+}
